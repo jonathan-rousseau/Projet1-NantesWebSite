@@ -1,0 +1,60 @@
+/* FOOTER */
+
+body{ 
+    width: 25.875em;
+    height: auto;
+    background-color:white;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+#img-footer{
+    width: 4.375em;
+    height: 4.375em;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer{
+    width: 25.875em;
+    height: 13.75em;
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;   
+}
+
+#logo-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.875em;
+    width: 15%;
+}
+
+h3 {
+    text-align: center;
+    margin-left: 1em;
+}
+#partenaire-footer h3{
+    
+    margin-left: 35px;
+    
+}
+#contact-footer h3 li{
+    text-align: center;
+    
+    
+}
+#partenaire-footer {
+    margin-right: 20px;
+
+} 
+#contact-footer li {    
+    justify-content: center;    
+}  
+#contact-footer{
+    width: 40%;
+}
+
