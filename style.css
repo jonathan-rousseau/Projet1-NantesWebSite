@@ -1,7 +1,7 @@
 /* FOOTER */
 
 body{ 
-    width: 25.875em;
+    width: 100%;
     height: auto;
     background-color:white;
     margin: auto;
@@ -58,3 +58,31 @@ h3 {
     width: 40%;
 }
 
+/*HISTOIRE*/
+
+#histoire{
+    width: 100%;
+    text-align: center;
+}
+
+#histoire p{
+    margin: 5px;
+}
+
+#LU{
+    border-radius: 30px;
+    margin: 5%;
+    width: 90%;
+}
+
+#cathedrale{
+    border-radius: 30px;
+    margin: 5%;
+    width: 90%;
+}
+
+#chateau{
+     border-radius: 30px;
+    margin: 5%;
+    width: 90%;
+}
