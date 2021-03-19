@@ -267,3 +267,31 @@ h2 {
     }
 }
 
+/*HISTOIRE*/
+
+#histoire{
+    width: 100%;
+    text-align: center;
+}
+
+#histoire p{
+    margin: 5px;
+}
+
+#LU{
+    border-radius: 30px;
+    margin: 5%;
+    width: 90%;
+}
+
+#cathedrale{
+    border-radius: 30px;
+    margin: 5%;
+    width: 90%;
+}
+
+#chateau{
+     border-radius: 30px;
+    margin: 5%;
+    width: 90%;
+}
