@@ -229,5 +229,9 @@ h1 {
         padding: 0 80px;
         margin-bottom: 100px;
     }
+
+    #titrearticleaccueil {
+        font-size: 30px;
+    }
 }
 
