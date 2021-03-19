@@ -80,6 +80,8 @@ footer{
 	height: 70px;
 	width: 100%;
 	display: flex;
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
 }
 
 nav {
@@ -90,7 +92,7 @@ nav {
     justify-content: space-between;
     padding: 0;
     height: 70px;
-
+    box-shadow: -1px 1px 7px 3px #4e4e4e;
 }
 
 #logoWCS {
@@ -163,13 +165,23 @@ i {
         height: auto;
 	}
 
+
     #nav-ul.show {
         display: flex;
-        position: absolute;
         top: 70px;
+        position: absolute;
+        animation-name: slideIn;
+        animation-duration: 1s;
         padding: 0;
     }
 
+    @keyframes slideIn {
+        from {
+          transform: translate(-100%, 0px);
+        }
+        to {
+        }
+      }
 
 	.burgerbtn {
 		display: block;
@@ -195,6 +207,8 @@ i {
     align-items: center;
     display: flex;
     justify-content: center;
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
 }
 
 h1 {
@@ -202,7 +216,18 @@ h1 {
     font-size: 80px;
     text-align: center;
     text-shadow: 3px 3px white;
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
 }
+
+@keyframes slideInAccueil {
+    from {
+      transform: translate(0, -600px);
+    }
+    to {
+      transform: translate(0px, 0px);
+    }
+  }
 
 /*Article accueil*/
 
@@ -216,11 +241,18 @@ h1 {
     margin-bottom: 50px;
 }
 
+h2 {
+    margin: 0;
+    font-size: 80px;
+    text-align: center;
+}
+
 #p-articleaccueil {
     text-align: center;
     padding: 0 150px;
     margin-bottom: 100px;
 }
+
 
 @media screen and (max-width: 800px) {
 
