@@ -290,6 +290,45 @@ h2 {
     width: 90%;
 }
 
+/* SORTIR A NANTES */
+
+#hangar img{
+    width:90%;
+    border-radius:30px;
+}
+
+#lieu-unique img{
+    width:90%;
+    border-radius:30px;
+}
+
+#bouffay img{
+    width: 90%;
+    border-radius:30px;
+}
+
+#sortie{
+    text-align: center;
+    width: 100%;
+}
+
+#hangar{
+    width:90%;
+    margin:5%;
+    margin-bottom: 10%;
+}
+ 
+#lieu-unique
+{
+    width:90%;
+    margin: 5%;
+    margin-bottom: 10%;
+}
+
+#bouffay{
+    width: 90%;
+    margin:5%;
+}
 #chateau{
      border-radius: 30px;
     margin: 5%;
