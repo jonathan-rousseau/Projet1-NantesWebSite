@@ -5,6 +5,7 @@ body{
     height: auto;
     background-color:white;
     margin: auto;
+    font-family: sans-serif;
     font-family: oswald;
     letter-spacing: 1px;
 }
@@ -55,6 +56,65 @@ footer{
 #contact-footer li {    
     justify-content: center;    
 }  
+#contact-footer{
+    width: 40%;
+}
+
+/* corps Page Contact */
+
+#contactForm {
+    border: solid grey;
+    margin: 5%;
+    height: 80%;
+    border-radius: 30px;
+    background-color: grey;
+    
+    
+
+    
+}
+#Nom, #Email, #message {
+    border-radius:30px ;
+    width: 80%;
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 10%;
+    padding-left: 10px;
+
+}
+#btn-envoi{
+    border-radius: 30px;
+    width: 20%;
+    margin-right: 10%;
+    margin-left: 70%;
+    background-color: white;
+
+}
+
+#message {
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.titre-contact {
+    text-align: center;
+    margin-top: 10%
+}
+#img-maps {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+#img-dev{
+    
+    width:90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
 #contact-footer, #logo-footer, #partenaire-footer {
     width: 30%;
     text-align: center;
