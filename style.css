@@ -6,6 +6,12 @@ body{
     background-color:white;
     margin: auto;
     font-family: sans-serif;
+    font-family: oswald;
+    letter-spacing: 1px;
+}
+
+p {
+    letter-spacing: 0.5px;
 }
 
 #img-footer{
@@ -19,7 +25,7 @@ li {
 
 footer{
     width: 100%;
-    height: 13.75em;
+    height: auto;
     display: flex;
     justify-content: space-around;
     background-color: grey;   
@@ -29,24 +35,20 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 1.875em;
-    width: 15%;
+    display: grid;
+    align-items: center;
 }
 
-h3 {
-    text-align: center;
-    margin-left: 1em;
+#img-footer {
+    width: 140px;
+    height: 140px;
 }
-#partenaire-footer h3{
-    
-    margin-left: 35px;
-    
-}
+
+
 #contact-footer h3 li{
-    text-align: center;
-    
-    
+    text-align: center;   
 }
+
 #partenaire-footer {
     margin-right: 20px;
 
@@ -112,4 +114,283 @@ h3 {
     margin-left: 5%;
     border-radius: 30px;
     margin-bottom: 5%;
+}
+#contact-footer, #logo-footer, #partenaire-footer {
+    width: 30%;
+    text-align: center;
+}
+
+#contact-footer p {
+    margin: 0;
+}
+
+#img-footer {
+    display: flex;
+    filter: brightness(0) invert(1);
+}
+
+/*HEADER*/
+
+* {
+	text-decoration: none;
+}
+
+.header {
+	background-color: #696969;
+	height: 70px;
+	width: 100%;
+	display: flex;
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
+}
+
+nav {
+    width: 100%;
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    height: 70px;
+    box-shadow: -1px 1px 7px 3px #4e4e4e;
+}
+
+#logoWCS {
+	margin-left: 25px;
+	filter: brightness(0) invert(1);
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+i {
+	color: white;
+}
+
+#nav-ul {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+    padding-right: 20px;
+    margin: 0;
+    height: 70px;
+}
+
+#liheader {
+    height: 40px;
+    line-height: 40px;
+    width: 80px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+#liheader a {
+	display: inline-block;
+	color: white;
+	font-size: 18px;
+    text-decoration: none;
+}
+
+#liheader:hover {
+	background-color: white;
+	border-radius: 10px;
+}
+
+#liheader a:hover {
+	color: #4e4e4e;
+}
+
+.burgerbtn {
+	font-size: 20px;
+	color: white;
+	margin-right: 25px;
+	cursor: pointer;
+	display: none;
+    background-color: transparent;
+    border: 0;
+}
+
+@media screen and (max-width: 800px) {
+
+	#nav-ul {
+		display: none;
+        width: 100%;
+        flex-direction: column;
+        background-color: #696969;
+        margin: 0;
+        height: auto;
+	}
+
+
+    #nav-ul.show {
+        display: flex;
+        top: 70px;
+        position: absolute;
+        animation-name: slideIn;
+        animation-duration: 1s;
+        padding: 0;
+    }
+
+    @keyframes slideIn {
+        from {
+          transform: translate(-100%, 0px);
+        }
+        to {
+        }
+      }
+
+	.burgerbtn {
+		display: block;
+	}
+
+	.burgerbtn:focus {
+		outline: none;
+	}
+
+    #accueilcontainer1 {
+        background-size: cover;
+    }
+  }
+
+/*Accueil container*/
+
+#accueilcontainer1 {
+    width: 100%;
+    height: 95vh;
+    background-image: url("nidnantes.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
+}
+
+h1 {
+    margin: 0;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 3px 3px white;
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
+}
+
+@keyframes slideInAccueil {
+    from {
+      transform: translate(0, -600px);
+    }
+    to {
+      transform: translate(0px, 0px);
+    }
+  }
+
+/*Article accueil*/
+
+#articleaccueil {
+    width: 80%;
+    display: contents;
+}
+
+#titrearticleaccueil {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 80px;
+    text-align: center;
+}
+
+#p-articleaccueil {
+    text-align: center;
+    padding: 0 150px;
+    margin-bottom: 100px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    #p-articleaccueil {
+        text-align: center;
+        padding: 0 80px;
+        margin-bottom: 100px;
+    }
+
+    #titrearticleaccueil {
+        font-size: 30px;
+    }
+}
+
+/*HISTOIRE*/
+
+#histoire{
+    width: 100%;
+    text-align: center;
+}
+
+#histoire p{
+    margin: 5px;
+}
+
+#LU{
+    border-radius: 30px;
+    margin: 5%;
+    width: 90%;
+}
+
+#cathedrale{
+    border-radius: 30px;
+    margin: 5%;
+    width: 90%;
+}
+
+/* SORTIR A NANTES */
+
+#hangar img{
+    width:90%;
+    border-radius:30px;
+}
+
+#lieu-unique img{
+    width:90%;
+    border-radius:30px;
+}
+
+#bouffay img{
+    width: 90%;
+    border-radius:30px;
+}
+
+#sortie{
+    text-align: center;
+    width: 100%;
+}
+
+#hangar{
+    width:90%;
+    margin:5%;
+    margin-bottom: 10%;
+}
+ 
+#lieu-unique
+{
+    width:90%;
+    margin: 5%;
+    margin-bottom: 10%;
+}
+
+#bouffay{
+    width: 90%;
+    margin:5%;
+}
+#chateau{
+     border-radius: 30px;
+    margin: 5%;
+    width: 90%;
 }
