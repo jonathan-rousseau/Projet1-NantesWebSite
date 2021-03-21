@@ -205,7 +205,7 @@ i {
 }
 
 .burgerbtn {
-	font-size: 20px;
+	font-size: 30px;
 	color: white;
 	margin-right: 25px;
 	cursor: pointer;
@@ -234,6 +234,8 @@ i {
         animation-duration: 1s;
         padding: 0;
     }
+
+
 
     @keyframes slideIn {
         from {
@@ -324,6 +326,8 @@ i {
 
     #titrearticleaccueil {
         font-size: 30px;
+        margin-top: 100px;
+        margin-bottom: 50px;
     }
 }
 
