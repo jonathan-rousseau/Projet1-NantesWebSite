@@ -6,7 +6,7 @@
     background-color: grey;
 }
 
-.avis{
+.avis, #commentaire{
     border-radius:30px ;
     width: 80%;
     align-items: center;
@@ -15,4 +15,12 @@
     padding-left: 10px;
     background-color: white;
     margin-top: 2%;
+}
+
+#comment{
+    border-radius: 30px;
+    width: 20%;
+    margin-right: 10%;
+    margin-left: 70%;
+    background-color: white;
 }
