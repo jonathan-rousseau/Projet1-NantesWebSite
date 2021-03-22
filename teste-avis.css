@@ -9,6 +9,8 @@
 .avis, #commentaire{
     border-radius:30px ;
     width: 80%;
+    height: 3em;
+    display: flex;
     align-items: center;
     margin-left: 7%;
     margin-right: 10%;
