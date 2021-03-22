@@ -24,3 +24,9 @@
     margin-left: 70%;
     background-color: white;
 }
+
+#commentaire {
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
