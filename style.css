@@ -3,7 +3,7 @@
 body{ 
     width: 100%;
     height: auto;
-    background-color:white;
+    background-color: #aba2a2;;
     margin: auto;
     font-family: sans-serif;
     font-family: oswald;
@@ -332,18 +332,59 @@ i {
 
 #histoire p{
     margin: 5px;
+    text-align: center;
+
+}
+#ville-historique{
+    text-align: center
 }
 
-#LU {
+#usine-LU{
+    border-radius: 30px;
+    background-color: #867a7a;
+    padding: 5px;
+    margin: 10px;
+}
+#usineLU-photo {
     border-radius: 30px;
     margin: 5%;
     width: 90%;
+    text-align: center;
+}
+
+#usine-titre{
+    text-align: center;
 }
 
 #cathedrale{
     border-radius: 30px;
+    background-color: #867a7a;
+    padding: 5px;
+    margin: 10px;
+}
+#cathedrale-photo{
+    border-radius: 30px;
     margin: 5%;
     width: 90%;
+}
+
+#cathedrale-titre{
+    text-align: center;
+}
+
+#chateau{
+     border-radius: 30px;
+     background-color: #867a7a;
+}
+
+#chateau-photo{
+    border-radius: 30px;
+    margin: 5%;
+    width: 90%;
+}
+
+#chateau-titre{
+    text-align: center;
 }
 
 /* SORTIR A NANTES */
