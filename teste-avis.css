@@ -1,15 +1,54 @@
+
+
+/* desktop version */
+@media screen and (min-width: 900px){
+    #bloc-avis-comment {
+        display: flex;
+        justify-content: space-around;
+        border: solid grey;
+        margin: 5%;
+        height: 80%;
+        border-radius: 30px;
+        background-color: grey;   
+    }
+
+    #bloc-avis , #bloc-comment{
+        width: 50%;
+
+    }
+    .avis{
+        width: auto;
+    }
+    #bloc-comment{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    
+    }
+
+    
+}
+/* version mobile */
+
+
+#titre-avis{
+    text-align: center;
+}
+
+    
+
+
 #bloc-avis-comment {
     border: solid grey;
     margin: 5%;
     height: 80%;
     border-radius: 30px;
-    background-color: grey;
+    background-color: grey;   
 }
 
 .avis, #commentaire{
     border-radius:30px ;
-    width: 80%;
-    height: 3em;
+    width: 80%; 
+    padding: 1em;  
     display: flex;
     align-items: center;
     margin-left: 7%;
@@ -25,6 +64,7 @@
     margin-right: 10%;
     margin-left: 70%;
     background-color: white;
+    
 }
 
 #commentaire {
