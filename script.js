@@ -18,16 +18,7 @@ button.addEventListener ('click', function(event) {
 
 ScrollReveal().reveal('#titrearticleaccueil', { duration: 2000 });
 ScrollReveal().reveal('.blockarticle', { duration: 2000 });
+ScrollReveal().reveal('#block-dev', { duration: 2000 });
+ScrollReveal().reveal('#accueilcontainer1', { duration: 2000 });
 
 
-
-
-// page Contact
-
-const nom = document.getElementById("Nom");
-const email = document.getElementById("Email");
-const bouton = document.getElementById("btn-envoi");
-
-bouton.addEventListener('click', function(){
-    alert(`Merci pour votre Message ${nom.value} ! Nous vous répondrons sur votre messagerie ${email.value} . `)
-})
