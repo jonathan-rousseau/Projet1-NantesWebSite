@@ -28,7 +28,8 @@ footer{
     height: auto;
     display: flex;
     justify-content: space-around;
-    background-color: grey;   
+    background-color: grey;  
+    box-shadow: -1px 1px 7px 3px #4e4e4e; 
 }
 
 #logo-footer{
@@ -58,6 +59,10 @@ footer{
 }  
 #contact-footer{
     width: 40%;
+}
+
+i, a {
+    color: white;
 }
 
 /* corps Page Contact */
@@ -252,7 +257,7 @@ i {
 }
 
 .burgerbtn {
-	font-size: 20px;
+	font-size: 30px;
 	color: white;
 	margin-right: 25px;
 	cursor: pointer;
@@ -282,6 +287,8 @@ i {
         padding: 0;
     }
 
+
+
     @keyframes slideIn {
         from {
           transform: translate(-100%, 0px);
@@ -300,6 +307,13 @@ i {
 
     #accueilcontainer1 {
         background-size: cover;
+    }
+
+    
+    #img-footer {
+        display: flex;
+        height: 80px;
+        width: 80px;
     }
   }
 
@@ -325,6 +339,7 @@ i {
     text-shadow: 3px 3px white;
     animation-name: slideInAccueil;
     animation-duration: 2s;
+    transition: all 1s;
 }
 
 @keyframes slideInAccueil {
@@ -346,6 +361,7 @@ i {
 #titrearticleaccueil {
     margin-top: 100px;
     margin-bottom: 50px;
+    transition: all 1s;
 }
 
 #titrearticleaccueil {
@@ -354,10 +370,29 @@ i {
     text-align: center;
 }
 
+#titresousarticle {
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+}
+
 #p-articleaccueil {
     text-align: center;
-    padding: 0 150px;
-    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blockarticle {
+    width: 80%;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 1s;
+}
+
+.blockarticle:hover, #titrearticleaccueil:hover, #h1-accueil:hover {
+    transform: scale(1.1, 1.1);
 }
 
 
@@ -365,12 +400,23 @@ i {
 
     #p-articleaccueil {
         text-align: center;
-        padding: 0 80px;
-        margin-bottom: 100px;
+        margin-bottom: 25px;
     }
 
     #titrearticleaccueil {
         font-size: 30px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    #titresousarticle {
+        margin-bottom: 25px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .blockarticle {
+        width: 70%;
     }
 }
 
