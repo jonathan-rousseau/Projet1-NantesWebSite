@@ -388,6 +388,7 @@ i {
     
 
 @media screen and (min-width: 800px){
+
     #cathedrale img, #usine-LU img, #chateau img{
         width: 40%;
         height: 90%;
@@ -457,77 +458,46 @@ i {
 }
 /* SORTIR A NANTES */
 
-#hangar img {
-    width:90%;
-    border-radius:30px;
-}
 
-#lieu-unique img{
-    width:90%;
-    border-radius:30px;
-}
-
-#bouffay img{
-    width: 90%;
-    border-radius:30px;
-}
-
-#hangar{
-    width:90%;
-    margin:5%;
-    margin-bottom: 10%;
+#blocTotale{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 #titrePrincipale{
     text-align: center;
+    font-size:50px;
+    margin:0px;
 }
- 
-#lieu-unique
-{
-    width:90%;
-    margin: 5%;
-    margin-bottom: 10%;
-}
-
-#bouffay{
+#hangar, #lieu-unique, #bouffay{
+    border-radius: 30px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    margin: 20px;
     width: 90%;
-    margin:5%;
+    text-align: center;
 }
 
-@media screen and (min-width:800px) {
-    #blocTotal{
-        width:80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #hangar, #bouffay{
-        transition: all 1s;
-        display:flex;
-        align-items: center;
-        justify-content:space-around;
-        width:100%;
-        height: 300px;
-        box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        padding: 20px;
-        border-radius:15px;
-        margin: 20px auto;
-    }
-    #hangar:hover, #lieu-unique:hover, #bouffay:hover{
-        transform:scale(1.1,1.1);
-    }
-    #hangar img, #lieu-unique img, #bouffay img{
-        border-radius:15px;
-        width: 540px;
-        height: 280px;
-        
-    }
- 
-    .texteTitre{
-        display:flex;
-        flex-wrap: wrap;
-        width:50%;
+#hangar img, #lieu-unique img, #bouffay img{
+    border-radius: 30px;
+    margin: 5%;
+    width: 90%;
+}
 
+
+@media screen and (min-width: 800px){
+
+    #hangar img  , #lieu-unique img , #bouffay img {
+        width: 40%;
+        height: 90%;
     }
+
+    #photoHangar {
+        display: flex;
+    }
+
     #lieu-unique{
         display:flex;
         align-items: center;
@@ -540,10 +510,46 @@ i {
         border-radius:15px;
         margin: 20px auto;
         transition: all 1s;
-    } 
+        background-color: white;
+    }
+    
+    #blocTotal{
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .texteTitre{
+        display:flex;
+        flex-wrap: wrap;
+        width:50%;
+        height:auto;    
+        text-align: left;    
+    }
+
+    #hangar,#bouffay{
+        transition: all 1s;
+        display:flex;
+        align-items: center;
+        justify-content:space-around;
+        width:100%;
+        height: 300px;
+        box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px;
+        border-radius:15px;
+        margin: 20px auto;
+        background-color: white;
+    }
+    #hangar:hover,#lieu-unique:hover,#bouffay:hover{
+        transform:scale(1.1,1.1);
+    }
+
+
     #titrePrincipale{
         text-align: center;
         font-size:80px;
+        margin:0px;
     }
- 
+       
+    
 }
