@@ -479,3 +479,52 @@ i {
     margin: 5%;
     width: 90%;
 }
+
+/* Slide desktop */
+
+
+  .container {
+    width: 80%;   
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  }
+ 
+  
+  .slider img {
+    height: 300px;
+    width: 100%;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 10px 10px 0 0;
+  }
+  img.active {
+    display: block;
+    animation: fade 0.8s;
+  }
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .cont-btn {
+    max-width: 100%;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+  }
+  .btn-nav {
+    font-size: 50px;
+    margin: 0 15px;
+    cursor: pointer;
+  }
+  @media screen and (min-width: 800px){
+      .slider img{
+          height: 500px;
+      }
+  }
