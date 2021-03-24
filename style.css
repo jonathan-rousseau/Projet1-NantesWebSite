@@ -73,16 +73,37 @@ i, a {
     margin: 5%;
     height: 80%;
     border-radius: 30px;
-    background-color: white;
-    
-    
-
-    
+    background-color: white;   
 }
+
+#bloc-contact {
+    transition: all 1s;
+}
+
+#bloc-contact:hover {
+    transform: scale(1.1, 1.1);
+}
+
 #bloc-map{
     animation-name: slideInAccueil;
     animation-duration: 2s;
+    transition: all 1s;
 }
+
+#bloc-map:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#bloc-dev {
+    transition: all 1s;
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
+}
+
+#bloc-dev:hover {
+    transform: scale(1.1, 1.1);
+}
+
 #titre-map2{
     animation-name: slideInAccueil;
     animation-duration: 2s;
@@ -334,7 +355,7 @@ i {
 
 #h1-accueil {
     margin: 0;
-    font-size: 80px;
+    font-size: 90px;
     text-align: center;
     text-shadow: 3px 3px white;
     animation-name: slideInAccueil;
