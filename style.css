@@ -608,7 +608,13 @@ i {
     margin: 40px auto;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-  }
+    transition: all 1s;
+}
+
+.container:hover {
+    transform: scale(1.1, 1.1);
+}
+  
  
   
   .slider img {
