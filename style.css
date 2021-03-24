@@ -3,7 +3,7 @@
 body{ 
     width: 100%;
     height: auto;
-    background-color:white;
+    background-color: #f9f3f4;
     margin: auto;
     font-family: sans-serif;
     font-family: oswald;
@@ -308,8 +308,6 @@ i {
         padding: 0;
     }
 
-
-
     @keyframes slideIn {
         from {
           transform: translate(-100%, 0px);
@@ -442,24 +440,123 @@ i {
 }
 
 /*HISTOIRE*/
+#histoire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
-#histoire p{
+.paragrapheHistoire{
     margin: 5px;
+    text-align: center;
+    color: rgb(214, 205, 205);
+
+}
+#ville-historique{
+    text-align: center;
 }
 
-#LU {
+#usine-LU, #cathedrale, #chateau{
+    border-radius: 30px;
+    background-color: #867a7a;
+    padding: 5px;
+    margin: 5px;
+   width: 90%;
+    text-align: center
+}
+
+#usineLU-photo {
+    border-radius: 30px;
+    margin: 5%;
+    width: 90%;
+    text-align: center;
+}
+
+#usine-titre{
+    text-align: center;
+}
+
+#cathedrale-photo{
     border-radius: 30px;
     margin: 5%;
     width: 90%;
 }
 
-#cathedrale{
+#cathedrale-titre{
+    text-align: center;
+}
+
+#chateau-photo{
     border-radius: 30px;
     margin: 5%;
     width: 90%;
 }
 
+#chateau-titre{
+    text-align: center;
+}
+
+@media screen and (min-width: 800px){
+    #histoire p{
+        color: black;
+    }
+    
+    #usineLU-photo{
+        width: 25%;
+        margin-top: 50px
+    }
+    #usine-LU{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border: solid;
+    }
+    #texte-LU{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        margin-right: 40px;
+        display: flex;
+      justify-content: center;
+        
+    }
+
+    #texte-cathedrale{
+        margin-left: 40px;
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+        
+    }
+    
+    #cathedrale-photo{
+        width: 30%;
+    }
+    #cathedrale{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: white;
+        border: solid;
+    }
+    #texte-chateau{
+      margin-right: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #chateau-photo{
+        width: 40%;
+        height: 20%
+    }
+    
+    #chateau{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border: solid;
+    }
+}
 /* SORTIR A NANTES */
 
 #hangar img {
@@ -477,11 +574,14 @@ i {
     border-radius:30px;
 }
 
-
 #hangar{
     width:90%;
     margin:5%;
     margin-bottom: 10%;
+}
+
+#titrePrincipale{
+    text-align: center;
 }
  
 #lieu-unique
@@ -497,6 +597,58 @@ i {
 }
 #chateau{
      border-radius: 30px;
-    margin: 5%;
     width: 90%;
+}
+@media screen and (min-width:800px) {
+    #blocTotal{
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #hangar, #bouffay{
+        transition: all 1s;
+        display:flex;
+        align-items: center;
+        justify-content:space-around;
+        width:100%;
+        height: 300px;
+        box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px;
+        border-radius:15px;
+        margin: 50px auto;
+    }
+    #hangar:hover, #lieu-unique:hover, #bouffay:hover{
+        transform:scale(1.1,1.1);
+    }
+    #hangar img, #lieu-unique img, #bouffay img{
+        border-radius:15px;
+        width: 540px;
+        height: 280px;
+        
+    }
+ 
+    .texteTitre{
+        display:flex;
+        flex-wrap: wrap;
+        width:50%;
+
+    }
+    #lieu-unique{
+        display:flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        width:80%;
+        height: 300px;
+        box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px;
+        border-radius:15px;
+        margin: 20px auto;
+        transition: all 1s;
+    } 
+    #titrePrincipale{
+        text-align: center;
+        font-size:80px;
+    }
+ 
 }
