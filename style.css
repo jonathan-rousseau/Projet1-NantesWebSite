@@ -73,6 +73,14 @@ footer{
 
     
 }
+#bloc-map{
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
+}
+#titre-map2{
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
+}
 #Nom, #Email, #message {
     border-radius:30px ;
     width: 80%;
@@ -100,6 +108,11 @@ footer{
     text-align: center;
     margin-top: 10%
 }
+.titre-dev {
+    text-align: center;
+    margin-top: 10%;
+}
+
 #img-maps {
     margin-left: 5%;
     margin-right: 5%;
@@ -139,12 +152,22 @@ footer{
     }
     #bloc-map, #bloc-contact{
         width: 40%;
+        animation-name: slideInAccueil;
+        animation-duration: 2s;
     }
     #bloc-contact{
         height: 100%;
     }
     #bloc-dev{
         width: 40%;
+    }
+    .titre-contact{
+        animation-name: slideInAccueil;
+        animation-duration: 2s;
+    }
+    .titre-dev {
+        animation-name: slideInAccueil;
+        animation-duration: 2s;
     }
 
 }
