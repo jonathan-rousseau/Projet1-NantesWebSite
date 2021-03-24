@@ -3,7 +3,7 @@
 body{ 
     width: 100%;
     height: auto;
-    background-color: #aba2a2;;
+    background-color #f9f3f4;
     margin: auto;
     font-family: sans-serif;
     font-family: oswald;
@@ -328,23 +328,31 @@ i {
 }
 
 /*HISTOIRE*/
+#histoire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
-#histoire p{
+.paragrapheHistoire{
     margin: 5px;
     text-align: center;
+    color: rgb(214, 205, 205);
 
 }
 #ville-historique{
-    text-align: center
+    text-align: center;
 }
 
-#usine-LU{
+#usine-LU, #cathedrale, #chateau{
     border-radius: 30px;
     background-color: #867a7a;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
+   width: 90%;
+    text-align: center
 }
+
 #usineLU-photo {
     border-radius: 30px;
     margin: 5%;
@@ -356,12 +364,6 @@ i {
     text-align: center;
 }
 
-#cathedrale{
-    border-radius: 30px;
-    background-color: #867a7a;
-    padding: 5px;
-    margin: 10px;
-}
 #cathedrale-photo{
     border-radius: 30px;
     margin: 5%;
@@ -370,11 +372,6 @@ i {
 
 #cathedrale-titre{
     text-align: center;
-}
-
-#chateau{
-     border-radius: 30px;
-     background-color: #867a7a;
 }
 
 #chateau-photo{
@@ -387,6 +384,67 @@ i {
     text-align: center;
 }
 
+@media screen and (min-width: 800px){
+    #histoire p{
+        color: black;
+    }
+    
+    #usineLU-photo{
+        width: 25%;
+        margin-top: 50px
+    }
+    #usine-LU{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border: solid;
+    }
+    #texte-LU{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        margin-right: 40px;
+        display: flex;
+      justify-content: center;
+        
+    }
+
+    #texte-cathedrale{
+        margin-left: 40px;
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+        
+    }
+    
+    #cathedrale-photo{
+        width: 30%;
+    }
+    #cathedrale{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: white;
+        border: solid;
+    }
+    #texte-chateau{
+      margin-right: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #chateau-photo{
+        width: 40%;
+        height: 20%
+    }
+    
+    #chateau{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border: solid;
+    }
+}
 /* SORTIR A NANTES */
 
 #hangar img {
@@ -424,6 +482,5 @@ i {
 }
 #chateau{
      border-radius: 30px;
-    margin: 5%;
     width: 90%;
 }
