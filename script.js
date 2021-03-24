@@ -15,3 +15,6 @@ button.addEventListener ('click', function(event) {
 }
 
 );
+
+ScrollReveal().reveal('#titrearticleaccueil', { duration: 2000 });
+ScrollReveal().reveal('.blockarticle', { duration: 2000 });
