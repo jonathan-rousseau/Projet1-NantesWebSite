@@ -130,6 +130,9 @@ i {
     margin-right: 10%;
     padding-left: 10px;
     background-color: rgba(0, 0, 0, 0.19);
+    border: 0;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 
 }
 #btn-envoi{
@@ -138,6 +141,9 @@ i {
     margin-right: 10%;
     margin-left: 70%;
     background-color: rgba(0, 0, 0, 0.19);
+    border: 0;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 
 }
 
@@ -189,6 +195,7 @@ i {
     }
     #bloc-contact{
         height: 100%;
+        
     }
     #bloc-dev{
         width: 40%;
