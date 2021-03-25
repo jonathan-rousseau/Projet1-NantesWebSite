@@ -327,8 +327,8 @@ footer{
     height: auto;
     display: flex;
     justify-content: space-around;
-    background-color: grey;  
-    box-shadow: -1px 1px 7px 3px #4e4e4e; 
+    background-color: #696969;  
+    box-shadow: -1px 1px 7px 3px #696969; 
 }
 
 #logo-footer{

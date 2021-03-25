@@ -25,7 +25,7 @@
     border-radius: 30px;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 5px;
-    margin: 20px;
+    margin: 30px;
     width: 90%;
     text-align: center;
 }
@@ -64,6 +64,10 @@
 
 #chateau-titre{
     text-align: center;
+}
+
+#chateau {
+    transition: all 1s;
 }
 
 @keyframes slideInAccueil {
@@ -132,7 +136,7 @@
         box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         padding: 20px;
         border-radius:15px;
-        margin: 20px auto;
+        margin: 30px auto;
         background-color: #f9f3f4;
     }
     
@@ -148,6 +152,10 @@
         text-align: center;
         font-size:80px;
         margin:0px;
+    }
+
+    #chateau {
+        transition: all 1s;
     }
           
 }
