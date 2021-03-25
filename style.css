@@ -68,12 +68,12 @@ i, a {
 /* corps Page Contact */
 
 #contactForm {
-    border: solid white;
+    border: solid #f9f3f4;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
     margin: 5%;
     height: 80%;
     border-radius: 30px;
-    background-color: white;   
+    background-color: #f9f3f4;   
 }
 
 #bloc-contact {
@@ -486,7 +486,7 @@ i {
 }
 
 #usineLU-photo {
-    border-radius: 30px;
+    border-radius: 15px;
     margin: 5%;
     width: 90%;
     text-align: center;
@@ -497,7 +497,7 @@ i {
 }
 
 #cathedrale-photo{
-    border-radius: 30px;
+    border-radius: 15px;
     margin: 5%;
     width: 90%;
 }
@@ -507,7 +507,7 @@ i {
 }
 
 #chateau-photo{
-    border-radius: 30px;
+    border-radius: 15px;
     margin: 5%;
     width: 90%;
 }
@@ -544,7 +544,7 @@ i {
         border-radius:15px;
         margin: 20px auto;
         transition: all 1s;
-        background-color: white;
+        background-color: #f9f3f4;
     }
     #histoire{
         width:80%;
@@ -576,7 +576,7 @@ i {
         padding: 20px;
         border-radius:15px;
         margin: 20px auto;
-        background-color: white;
+        background-color: #f9f3f4;
     }
     #usine-LU:hover,#chateau:hover,#cathedrale:hover{
         transform:scale(1.1,1.1);
@@ -623,7 +623,7 @@ i {
 }
 
 #hangar img, #lieu-unique img, #bouffay img{
-    border-radius: 30px;
+    border-radius: 15px;
     margin: 5%;
     width: 90%;
 }
@@ -653,7 +653,7 @@ i {
         border-radius:15px;
         margin: 40px auto;
         transition: all 1s;
-        background-color: white;
+        background-color: #f9f3f4;
     }
     
     #blocTotal{
@@ -681,7 +681,7 @@ i {
         padding: 20px;
         border-radius:15px;
         margin: 40px auto;
-        background-color: white;
+        background-color: #f9f3f4;
     }
     #hangar:hover,#lieu-unique:hover,#bouffay:hover{
         transform:scale(1.1,1.1);

@@ -9,8 +9,7 @@
         border-radius: 15px;
         background-color: grey;
         padding: 20px;
-        margin: 20px auto;
-          
+        margin: 20px auto;      
     }
 
     #bloc-avis , #bloc-comment{
@@ -23,7 +22,6 @@
     #bloc-comment{
         margin-top: 5%;
         margin-bottom: 5%;
-    
     }
 
     
@@ -35,16 +33,13 @@
     text-align: center;
 }
 
-    
-
-
 #bloc-avis-comment {
-    border: solid white;
+    border: solid #f9f3f4;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
     margin: 20px auto;   
-    width: 80%;
+    width: 100%;
     border-radius: 15px;
-    background-color: white;
+    background-color: #f9f3f4;
     padding: 20px;  
 }
 
@@ -55,7 +50,7 @@
     margin-left: 7%;
     margin-right: 10%;
     padding-left: 10px;
-    background-color: white;
+    background-color: #f9f3f4;
     margin-top: 2%;
     background-color: rgba(0, 0, 0, 0.19);
     border: 0;
@@ -88,4 +83,10 @@
 
 #bloc-avis-comment:hover {
     transform: scale(1.1, 1.1);
+}
+
+@media screen and (max-width: 800px) {
+    #bloc-avis-comment{
+        width: 80%;
+    }
 }
