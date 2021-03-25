@@ -494,10 +494,6 @@ i {
         height: 90%;
     }
 
-    #photoHangar {
-        display: flex;
-    }
-
     #lieu-unique{
         display:flex;
         align-items: center;
@@ -508,7 +504,7 @@ i {
         box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         padding: 20px;
         border-radius:15px;
-        margin: 20px auto;
+        margin: 40px auto;
         transition: all 1s;
         background-color: white;
     }
@@ -537,7 +533,7 @@ i {
         box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         padding: 20px;
         border-radius:15px;
-        margin: 20px auto;
+        margin: 40px auto;
         background-color: white;
     }
     #hangar:hover,#lieu-unique:hover,#bouffay:hover{
