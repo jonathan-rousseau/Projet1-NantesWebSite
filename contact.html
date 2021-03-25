@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Oswald">
-    <title>Contact</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>WCS Nantes</title>
 </head>
 <body>
     <header>
         <div class="header">
             <nav>
                 <div id="containerimg">
-                <img id="logoWCS" src="logo-HD-fond-transparent.png">
+                    <a href="index.html">
+                        <img id="logoWCS" src="logo-HD-fond-transparent.png">
+                    </a>
             </div>            
                 <button class="burgerbtn" id="burgerbtn">
-                    <i class="fas fa-bars"></i>
+                    <i id="menuicon" class="fas fa-bars"></i>
                 </button>
                 <ul id="nav-ul">
                     <li id="liheader"><a href="index.html">Accueil</a></li>
@@ -32,9 +33,14 @@
         </div>
     </header>
         <main>
-            <h2 class="titre-contact">Nous retrouver</h2>
-            <iframe id="img-maps"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.4840451826126!2d-1.5577809842129087!3d47.20711042348163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805ef2139832f6b%3A0xe5aaf780b1ea1c91!2sWild%20Code%20School%20-%20Training%20D%C3%A9veloppeur%20Web%20Et%20Data%20Analyst!5e0!3m2!1sen!2sfr!4v1616066450085!5m2!1sen!2sfr" width="90%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            <h2 class="titre-contact">Nous contacter</h2>
+            <div id="page-contact">
+            <div id="bloc-map">
+                <h2 class="titre-contact" id="titre-map2">Nous retrouver</h2>
+                <iframe id="img-maps"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.4840451826126!2d-1.5577809842129087!3d47.20711042348163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805ef2139832f6b%3A0xe5aaf780b1ea1c91!2sWild%20Code%20School%20-%20Training%20D%C3%A9veloppeur%20Web%20Et%20Data%20Analyst!5e0!3m2!1sen!2sfr!4v1616066450085!5m2!1sen!2sfr" width="90%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+           
+            <div id="bloc-contact">
+                <h2 class="titre-contact">Nous contacter</h2>
             
                 <form id="contactForm">      
                   <br>
@@ -44,11 +50,14 @@
                   <br>
                   <textarea id="message" name="message" placeholder="Message"></textarea>
                   <br><br>       
-                  <input type="submit" id="btn-envoi" >     
-                 </form>
+                  <button type="button" id="btn-envoi" >Envoyer</button>     
+                 </form></div>
 
-            <h2 class="titre-contact">Les Développeurs</h2> 
-            <img src="./photoTeam.jpg" id="img-dev"alt="photo de geek">    
+            <div id="bloc-dev">
+                <h2 class="titre-dev">Les Développeurs</h2> 
+                <img src="./photoTeam.jpg" id="img-dev"alt="photo de geek">
+            </div>
+            </div>    
 
 
         </main>
@@ -77,6 +86,8 @@
                 </p>
             </div>
         </footer>
-     <script src="script.js"></script> 
+     <script src="script.js"></script>
+     <script src="script-contact.js"></script>
+     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>
