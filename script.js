@@ -20,5 +20,7 @@ ScrollReveal().reveal('#titrearticleaccueil', { duration: 2000 });
 ScrollReveal().reveal('.blockarticle', { duration: 2000 });
 ScrollReveal().reveal('#block-dev', { duration: 2000 });
 ScrollReveal().reveal('#accueilcontainer1', { duration: 2000 });
-
+ScrollReveal().reveal('#bouffay', { duration: 2000 });
+ScrollReveal().reveal('#chateau', { duration: 2000 });
+ScrollReveal().reveal('.container', { duration: 2000 });
 

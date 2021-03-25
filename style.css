@@ -334,6 +334,7 @@ i {
         height: 80px;
         width: 80px;
     }
+
   }
 
 /*Accueil container*/
@@ -352,7 +353,8 @@ i {
 }
 
 #h1-accueil {
-    margin: 0;
+    margin: 0;    
+    padding: 20px;
     font-size: 90px;
     text-align: center;
     text-shadow: 3px 3px white;
@@ -437,6 +439,10 @@ i {
     .blockarticle {
         width: 70%;
     }
+
+    #h1-accueil {
+        font-size: 50px;
+    }
 }
 
 /*HISTOIRE*/
@@ -450,14 +456,16 @@ i {
 .paragrapheHistoire{
     margin: 5px;
     text-align: center;
-    
-
 }
+
 #ville-historique{
     text-align: center;
     font-size:50px;
     margin:0px;
+    animation-name: slideInAccueil;
+    animation-duration: 3s;
 }
+
 #usine-LU, #cathedrale, #chateau{
     border-radius: 30px;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -465,6 +473,16 @@ i {
     margin: 20px;
     width: 90%;
     text-align: center
+}
+
+#usine-LU {
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
+}
+
+#cathedrale {
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
 }
 
 #usineLU-photo {
@@ -497,6 +515,15 @@ i {
 #chateau-titre{
     text-align: center;
 }
+
+@keyframes slideInAccueil {
+    from {
+      transform: translate(0, -600px);
+    }
+    to {
+      transform: translate(0px, 0px);
+    }
+  }
     
 
 @media screen and (min-width: 800px){
@@ -582,7 +609,10 @@ i {
     text-align: center;
     font-size:50px;
     margin:0px;
+    animation-name: slideInAccueil;
+    animation-duration: 3s;
 }
+
 #hangar, #lieu-unique, #bouffay{
     border-radius: 30px;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -596,6 +626,11 @@ i {
     border-radius: 30px;
     margin: 5%;
     width: 90%;
+}
+
+#hangar, #lieu-unique {
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
 }
 
 
@@ -669,8 +704,12 @@ i {
     margin: 40px auto;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    transition: all 1s;
   }
  
+  .container:hover {
+    transform:scale(1.1,1.1);
+  }
   
   .slider img {
     height: 300px;
@@ -679,10 +718,12 @@ i {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     border-radius: 10px 10px 0 0;
   }
+
   img.active {
     display: block;
     animation: fade 0.8s;
   }
+
   @keyframes fade {
     from {
       opacity: 0;
@@ -699,11 +740,13 @@ i {
     display: flex;
     justify-content: center;
   }
+
   .btn-nav {
     font-size: 50px;
     margin: 0 15px;
     cursor: pointer;
   }
+
   @media screen and (min-width: 800px){
       .slider img{
           height: 500px;
