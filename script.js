@@ -23,4 +23,5 @@ ScrollReveal().reveal('#accueilcontainer1', { duration: 2000 });
 ScrollReveal().reveal('#bouffay', { duration: 2000 });
 ScrollReveal().reveal('#chateau', { duration: 2000 });
 ScrollReveal().reveal('.container', { duration: 2000 });
+ScrollReveal().reveal('#bloc-avis-comment', { duration: 2000 });
 

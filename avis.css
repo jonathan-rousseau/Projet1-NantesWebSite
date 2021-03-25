@@ -3,11 +3,14 @@
     #bloc-avis-comment {
         display: flex;
         justify-content: space-around;
-        border: solid grey;
-        margin: 5%;
-        height: 80%;
-        border-radius: 30px;
-        background-color: grey;   
+        border: solid grey;       
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        background-color: grey;
+        padding: 20px;
+        margin: 20px auto;
+          
     }
 
     #bloc-avis , #bloc-comment{
@@ -38,14 +41,15 @@
 #bloc-avis-comment {
     border: solid white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
-    margin: 5%;
-    height: 80%;
-    border-radius: 30px;
-    background-color: white;   
+    margin: 20px auto;   
+    width: 80%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;  
 }
 
 .avis, #commentaire,#Name{
-    border-radius:20px ;
+    border-radius:15px ;
     width: 80%;    
     align-items: center;
     margin-left: 7%;
@@ -54,14 +58,19 @@
     background-color: white;
     margin-top: 2%;
     background-color: rgba(0, 0, 0, 0.19);
+    border: 0;
+    outline: none;
 }
 
 #comment{
-    border-radius: 30px;
+    border-radius: 15px;
     width: 20%;
     margin-right: 10%;
     margin-left: 70%;
     background-color: rgba(0, 0, 0, 0.19);
+    border: 0;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
     
 }
 
@@ -72,4 +81,11 @@
 }
 #bloc-avis p{
     text-align: center;
+}
+#bloc-avis-comment{
+    transition: all 1s;
+}
+
+#bloc-avis-comment:hover {
+    transform: scale(1.1, 1.1);
 }
