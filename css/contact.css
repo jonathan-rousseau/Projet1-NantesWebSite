@@ -1,0 +1,148 @@
+/* corps Page Contact */
+
+#contactForm {
+    border: solid #f9f3f4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    margin: 5%;
+    height: 80%;
+    border-radius: 30px;
+    background-color: #f9f3f4;   
+}
+
+#bloc-contact {
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
+    transition: all 1s;
+}
+
+.titre-contact {
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
+}
+
+#bloc-contact:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#bloc-map{
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
+    transition: all 1s;
+}
+
+#bloc-map:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#bloc-dev {
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
+    transition: all 1s;
+}
+
+#bloc-dev:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#titre-map2{
+    animation-name: slideInAccueil;
+    animation-duration: 2s;
+}
+#Nom, #Email, #message {
+    border-radius:30px ;
+    width: 80%;
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 10%;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.19);
+    border: 0;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+
+}
+#btn-envoi{
+    border-radius: 30px;
+    width: 20%;
+    margin-right: 10%;
+    margin-left: 70%;
+    background-color: rgba(0, 0, 0, 0.19);
+    border: 0;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+
+}
+
+#message {
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.titre-contact {
+    text-align: center;
+    margin-top: 10%
+}
+.titre-dev {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#img-maps {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+#img-dev{
+    
+    width:90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+/* corps page contact VERSION DESKTOP */
+
+@media screen and (min-width: 800px) {
+
+    #page-contact{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #bloc-map, #bloc-contact{
+        width: 40%;
+        animation-name: slideInAccueil;
+        animation-duration: 2s;
+    }
+
+    #bloc-contact{
+        height: 100%;
+        
+    }
+    #bloc-dev{
+        width: 40%;
+    }
+    .titre-contact{
+        animation-name: slideInAccueil;
+        animation-duration: 2s;
+    }
+    .titre-dev {
+        animation-name: slideInAccueil;
+        animation-duration: 2s;
+    }
+
+}
+
+@keyframes slideInAccueil {
+    from {
+      transform: translate(0, -600px);
+    }
+    to {
+      transform: translate(0px, 0px);
+    }
+  }
