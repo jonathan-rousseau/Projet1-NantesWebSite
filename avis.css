@@ -1,0 +1,75 @@
+/* desktop version */
+@media screen and (min-width: 800px){
+    #bloc-avis-comment {
+        display: flex;
+        justify-content: space-around;
+        border: solid grey;
+        margin: 5%;
+        height: 80%;
+        border-radius: 30px;
+        background-color: grey;   
+    }
+
+    #bloc-avis , #bloc-comment{
+        width: 50%;
+
+    }
+    .avis{
+        width: auto;
+    }
+    #bloc-comment{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    
+    }
+
+    
+}
+/* version mobile */
+
+
+#titre-avis{
+    text-align: center;
+}
+
+    
+
+
+#bloc-avis-comment {
+    border: solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    margin: 5%;
+    height: 80%;
+    border-radius: 30px;
+    background-color: white;   
+}
+
+.avis, #commentaire,#Name{
+    border-radius:20px ;
+    width: 80%;    
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 10%;
+    padding-left: 10px;
+    background-color: white;
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.19);
+}
+
+#comment{
+    border-radius: 30px;
+    width: 20%;
+    margin-right: 10%;
+    margin-left: 70%;
+    background-color: rgba(0, 0, 0, 0.19);
+    
+}
+
+#commentaire {
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#bloc-avis p{
+    text-align: center;
+}
