@@ -61,8 +61,22 @@ footer{
     width: 40%;
 }
 
-i, a {
+i {
     color: white;
+}
+
+#contact-footer, #logo-footer, #partenaire-footer {
+    width: 30%;
+    text-align: center;
+}
+
+#contact-footer p {
+    margin: 0;
+}
+
+#img-footer {
+    display: flex;
+    filter: brightness(0) invert(1);
 }
 
 /* corps Page Contact */
@@ -158,19 +172,7 @@ i, a {
     margin-bottom: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
-#contact-footer, #logo-footer, #partenaire-footer {
-    width: 30%;
-    text-align: center;
-}
 
-#contact-footer p {
-    margin: 0;
-}
-
-#img-footer {
-    display: flex;
-    filter: brightness(0) invert(1);
-}
 /* corps page contact VERSION DESKTOP */
 
 @media screen and (min-width: 800px) {
